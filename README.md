@@ -1,3 +1,5 @@
+<div align="center">
+ 
 # 💻 Portfólio - Ana Luiza
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
@@ -7,6 +9,7 @@
 Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e trajetória como **Desenvolvedora Full Stack em desenvolvimento**.
 
 O site possui uma interface diferenciada que combina uma página tradicional com um **terminal interativo**, permitindo navegação através de comandos e criando uma experiência inspirada em ambientes de desenvolvimento.
+</div>
 
 ---
 
