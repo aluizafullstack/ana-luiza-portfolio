@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfólio | Ana Luiza</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="layout-mestre" id="layout">
+      <main class="site-conteudo">
+        <header id="perfil">
+          <div class="topo-perfil">
+            <div class="logo-perfil">
+              <h1>Ana Luiza</h1>
+              <p>Desenvolvedora Full Stack em desenvolvimento</p>
+            </div>
+            <div class="frase-destaque">
+              Bem vindo ao meu <span>Portfólio</span>
+            </div>
+          </div>
+
+          <nav class="menu-comandos">
+            <ul>
+              <li>
+                <span class="prefixo">comando:</span>
+                <a class="comando">sobre</a>
+              </li>
+
+              <li>
+                <span class="prefixo">comando:</span>
+                <a class="comando">projetos</a>
+              </li>
+
+              <li>
+                <span class="prefixo">comando:</span>
+                <a class="comando">habilidades</a>
+              </li>
+
+              <li>
+                <span class="prefixo">comando:</span>
+                <a class="comando">contato</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section id="sobre" class="sessao-sobre">
+          <div class="perfil-container">
+            <div class="conteudo-principal">
+              <div class="foto-perfil">
+                <img src="Ana-Luiza.jpeg" alt="Imagem de Ana Luiza" />
+              </div>
+
+              <div class="texto-introducao">
+                <h2>Sobre Mim</h2>
+                <p>
+                  Sou uma desenvolvedora em formação, seguindo uma jornada
+                  estruturada até me tornar full stack. Meu objetivo é criar
+                  sistemas inteligentes, escaláveis e com impacto real, sempre
+                  priorizando boas práticas de arquitetura.
+                </p>
+              </div>
+            </div>
+
+            <div class="lista-habilidade">
+              <aside>
+                <h2>Habilidades</h2>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Java</li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </section>
+        <section id="projetos">
+          <div class="logo-projetos">
+            <h2>Meus projetos</h2>
+            <p>
+              Nesta seção apresento alguns projetos desenvolvidos para aplicar
+              na prática conceitos de Engenharia de Software e aprimorar minhas
+              habilidades em programação. Cada projeto foi pensado para simular
+              desafios reais de desenvolvimento, explorando boas práticas de
+              arquitetura, organização de código e modelagem de sistemas.
+            </p>
+          </div>
+          <div class="carrossel-3d">
+            <div class="projeto-card" style="--i: 1">
+              <div class="projeto-interior">
+                <div class="projeto-frente">
+                  <img src="projetos.png" alt="Projeto 1" />
+                  <div class="projeto-infor-frente"><h3>codeslayer</h3></div>
+                </div>
+                <div class="projeto-atras">
+                  <h3>Sobre o Projeto</h3>
+                  <p>
+                    ⚔️ RPG em Java focado em programação orientada a objetos.
+                    Combate por turnos, sistema de níveis e inventário. 100%
+                    Java puro, sem dependências — aprendendo classes,
+                    encapsulamento e métodos enquanto derrota dragões. 🐉
+                  </p>
+                  <div class="tecnicos">
+                    <span>Java</span>
+                  </div>
+                  <a
+                    href="https://github.com/aluizafullstack/projetocodeslayer"
+                    target="_blank"
+                  >
+                    <button class="botao-projeto">Ver Projeto</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="projeto-card" style="--i: 2">
+              <div class="projeto-interior">
+                <div class="projeto-frente">
+                  <img src="projetos.png" alt="Projeto 2" />
+                  <div class="projeto-infor-frente">
+                    <h3>OrderFlowEngine</h3>
+                  </div>
+                </div>
+                <div class="projeto-atras">
+                  <h3>Sobre o Projeto</h3>
+                  <p>
+                    ⚙️ Onde a lógica organiza o fluxo! Sistema de pedidos e
+                    estoque em Java com foco em POO, controle de estoque,
+                    processamento de pedidos e validação de dados. 100% Java
+                    puro, sem dependências. 🛒📦
+                  </p>
+                  <div class="tecnicos">
+                    <span>Java</span><span>Java OPP</span>
+                  </div>
+                  <a
+                    href="https://github.com/aluizafullstack/projetoOrderFlowEngine"
+                    target="_blank"
+                    style="text-decoration: none"
+                  >
+                    <button class="botao-projeto">Ver Projeto</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="projeto-card" style="--i: 3">
+              <div class="projeto-interior">
+                <div class="projeto-frente">
+                  <img src="projetos.png" alt="Projeto 3" />
+                  <div class="projeto-infor-frente">
+                    <h3>DevTask-Manager</h3>
+                  </div>
+                </div>
+                <div class="projeto-atras">
+                  <h3>Sobre o Projeto</h3>
+                  <p>
+                    🛡️ Onde a gestão encontra o código! Sistema de gerenciamento
+                    de tarefas em Java com níveis de acesso, fluxo de aprovação
+                    e persistência em arquivos. Focado em POO e arquitetura
+                    limpa. ⚙️📋
+                  </p>
+                  <div class="tecnicos">
+                    <span>Java avançado</span><span>Java OOP</span>
+                  </div>
+                  <a
+                    href="https://github.com/aluizafullstack/DevTaskManager"
+                    target="_blank"
+                    style="text-decoration: none"
+                  >
+                    <button class="botao-projeto">Ver Projeto</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="projeto-card" style="--i: 4">
+              <div class="projeto-interior">
+                <div class="projeto-frente">
+                  <img src="projetos.png" alt="Projeto 3" />
+                  <div class="projeto-infor-frente">
+                    <h3>Site Portfolio 1.0</h3>
+                  </div>
+                </div>
+                <div class="projeto-atras">
+                  <h3>Sobre o Projeto</h3>
+                  <p>
+                    💻 Onde o design encontra o terminal! Primeira versão do meu
+                    site atual: um portfólio interativo com navegação em estilo
+                    linha de comando, desenvolvido com HTML, CSS e JavaScript
+                    puro, focado em UX moderna e manipulação do DOM. 🚀
+                  </p>
+                  <div class="tecnicos">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                  </div>
+                  <a
+                    href="https://github.com/aluizafullstack/site"
+                    target="_blank"
+                    style="text-decoration: none"
+                  >
+                    <button class="botao-projeto">Ver Projeto</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="habilidades" class="habilidades-arvore">
+          <div class="logo-habilidades">
+            <h2>Minha Árvore de Habilidades</h2>
+            <p>
+              Todo conhecimento começa com uma semente. Esta árvore representa
+              minha evolução no desenvolvimento.
+            </p>
+          </div>
+
+          <div class="arvore">
+            <div class="semente">🌱</div>
+
+            <div class="tronco"></div>
+
+            <div class="galhos">
+              <div class="ramo">
+                <div class="ramo-topo">Front-End</div>
+                <div class="habilidades">
+                  <div class="habilidade">HTML</div>
+                  <div class="habilidade">CSS</div>
+                  <div class="habilidade">JavaScript</div>
+                </div>
+              </div>
+
+              <div class="ramo">
+                <div class="ramo-topo">Back-End</div>
+                <div class="habilidades">
+                  <div class="habilidade">Java</div>
+                </div>
+              </div>
+
+              <div class="ramo">
+                <div class="ramo-topo">Ferramentas</div>
+                <div class="habilidades">
+                  <div class="habilidade">Git</div>
+                  <div class="habilidade">UML</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contato">
+          <div class="conteudo-principal-contato">
+            <div class="texto-introducao-contato">
+              <h2>Contato</h2>
+              <p>Tem algum projeto em mente? Entre em contato comigo!</p>
+            </div>
+          </div>
+
+          <div class="contato-container">
+            <div class="endereco-card">
+              <address>
+                <a href="mailto:a.luiza.fullstack@gmail.com">
+                  <i class="fa-solid fa-envelope"></i>
+                  a.luiza.fullstack@gmail.com
+                </a>
+              </address>
+            </div>
+
+            <div class="endereco-card">
+              <address>
+                <a
+                  href="https://www.linkedin.com/in/analuizafullstack/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+              </address>
+            </div>
+
+            <div class="endereco-card">
+              <address>
+                <a
+                  href="https://github.com/aluizafullstack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+              </address>
+            </div>
+
+            <div class="endereco-card">
+              <address>
+                <a
+                  href="https://www.instagram.com/aluizafullstack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+              </address>
+            </div>
+
+            <div class="endereco-card">
+              <address>
+                <a
+                  href="https://wa.me/5547997055373"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+              </address>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="terminal-barra-lateral">
+        <div class="terminal-cabecalho">
+          <div class="terminal-titulo">
+            <i
+              class="fas fa-terminal"
+              style="font-size: 0.8rem; margin-right: 5px"
+            ></i>
+            <span>terminal.exe</span>
+          </div>
+          <div id="botao-fechar" title="Fechar Terminal">&times;</div>
+        </div>
+
+        <div class="terminal-corpo" id="terminal-display">
+          <div id="terminal-header-msgs">
+            <div class="sistema-mensagem">
+              [USER] ana_luiza.init() — Sucesso..
+            </div>
+            <div class="sistema-mensagem">
+              Aguardando entrada do usuário (digite 'help' para comandos)...
+            </div>
+          </div>
+
+          <div id="terminal-content"></div>
+
+          <div class="terminal-input-line">
+            <span class="prompt">user@visitante:~$</span>
+            <div class="terminal-input-wrapper">
+              <input
+                type="text"
+                id="terminal-cmd"
+                autofocus
+                spellcheck="false"
+                aria-autocomplete="off"
+                autocomplete="off"
+              />
+              <span class="cursor"></span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="rodape">
+        <p>&copy; 2026 Ana Luiza. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <button id="botao-abrir" class="botao-terminal-abrir">
+      <i class="fa-solid fa-terminal"></i>
+    </button>
+  </body>
+</html>
